@@ -14,6 +14,7 @@ Pod::Spec.new do |s|
 
   s.source          = { :git => "https://github.com/segmentio/analytics-ios.git", :tag => s.version.to_s }
   s.ios.deployment_target = '7.0'
+  s.tvos.deployment_target = '9.1'
   s.requires_arc    = true
 
   s.subspec 'Core-iOS' do |ss|
